@@ -4,12 +4,12 @@ import { getFirestore, query, collection, onSnapshot, orderBy, addDoc, Timestamp
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCvKzLop1BOZn701uMQkYwt7wL1n7BmmTQ",
-    authDomain: "chat-95996.firebaseapp.com",
-    projectId: "chat-95996",
-    storageBucket: "chat-95996.appspot.com",
-    messagingSenderId: "739488295817",
-    appId: "1:739488295817:web:f20cfc238d8432c5538f58"
+    apiKey: "AIzaSyAb-Q7HA3KaGBgqeFebNjNBZC6UyiAhBa4",
+    authDomain: "chat-9b441.firebaseapp.com",
+    projectId: "chat-9b441",
+    storageBucket: "chat-9b441.appspot.com",
+    messagingSenderId: "893727742134",
+    appId: "1:893727742134:web:5be6f60b6ec30b1fedae17"
 }
 
 // Initialize Firebase
@@ -67,7 +67,7 @@ const initDb = () => {
 
             li.innerHTML = `
             <span class="fw-light text-muted">${data.timestamp}</span>
-            <span class="fw-bold text-muted">${data.username}</span>
+            <span class="fw-bold text-muted">${data.userName}</span>
             <span class="fw-bold px-2">${data.message}</span>
             `
 
